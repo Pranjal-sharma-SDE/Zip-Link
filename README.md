@@ -1,5 +1,3 @@
-
-```markdown
 # Zip~Link - URL Shortener Application [Link](https://ziplinkpj.netlify.app/)
 
 Zip~Link is a robust URL shortener application developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It empowers users to condense lengthy URLs into more manageable links and offers essential features like user authentication, a user dashboard, analytics, and more.
