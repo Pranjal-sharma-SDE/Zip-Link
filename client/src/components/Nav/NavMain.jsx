@@ -18,7 +18,7 @@ const NavMain = () => {
       <div className="container mx-auto flex  justify-between items-center">
         <NavLink className="text-white text-3xl font-bold flex justify-center items-center flex-row" to="/">
         
-		  <img src="https://play-lh.googleusercontent.com/jkr1U0SdxDsWwotCnUbnyj5webyuN5n2BQCSssvBo-9U017rM8l-rYhSZyB2OD0yzA" alt="logo" width="50" height="50" className="mr-2 rounded-lg"/>
+		  <img src="https://res.cloudinary.com/dqhyudo4x/image/upload/v1707381315/jkr1U0SdxDsWwotCnUbnyj5webyuN5n2BQCSssvBo-9U017rM8l-rYhSZyB2OD0yzA_omzlak.jpg" alt="logo" width="50" height="50" className="mr-2 rounded-lg"/>
           Zip~Link
 		</NavLink>
 

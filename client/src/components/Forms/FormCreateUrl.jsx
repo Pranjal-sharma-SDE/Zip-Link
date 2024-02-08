@@ -23,6 +23,15 @@ const FormCreateUrl = () => {
             return;
         }
 
+        // Regular expression for URL validation
+        const urlRegex = /^(ftp|http|https):\/\/[^ "]+$/;
+
+        // Check if the entered URL is valid
+        if (!urlRegex.test(originalUrl)) {
+            setError({ message: "Please enter a valid URL." });
+            return;
+        }
+
         apiHandler
             .shortenUrl({ originalUrl })
             .then((res) => {

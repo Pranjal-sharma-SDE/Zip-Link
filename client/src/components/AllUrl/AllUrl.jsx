@@ -47,7 +47,7 @@ const AllUrl = () => {
               <th className="py-2 px-4 border-b">ID</th>
               <th className="py-2 px-4 border-b">Original URL</th>
               <th className="py-2 px-4 border-b">Short URL</th>
-              <th className="py-2 px-4 border-b">No of Views</th>
+              <th className="py-2 px-4 border-b">No of Views (Click to View Analytics)</th>
             </tr>
           </thead>
           <tbody>
@@ -60,7 +60,7 @@ const AllUrl = () => {
                 >
                   <td className="py-2 px-4 border-b">{index + 1}</td>
                   <td className="py-2 px-4 border-b">{url.originalUrl}</td>
-                  <td className="py-2 px-4 border-b">
+                  <td className="py-2 px-4 border-b text-blue-400">
                     <span
                       title="Click to copy to clipboard"
                       onClick={() =>
@@ -72,7 +72,7 @@ const AllUrl = () => {
                       {url.shortUrl}
                     </span>
                   </td>
-                  <td className="py-2 px-4 border-b"  onClick={() =>
+                  <td className="py-2 px-4 border-b text-green-300"  onClick={() =>
                     handleNavigateToAnalytics(`${url.shortUrl}`)
                   }>{url.visitedHistory.length}</td>
                 </tr>
