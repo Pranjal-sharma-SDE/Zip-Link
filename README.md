@@ -1,4 +1,3 @@
-Certainly! Here is the updated README with images included:
 
 ```markdown
 # Zip~Link - URL Shortener Application [Link](https://ziplinkpj.netlify.app/)
